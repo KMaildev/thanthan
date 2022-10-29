@@ -18,17 +18,20 @@
             </div>
         </div>
     </section>
+
     <section id="about-section" class="about-section av-py-default shapes-section">
         <div class="av-container">
             <div class="av-columns-area">
                 <div class="av-column-6 mb-4 mb-av-0">
                     <div class="about-content">
-                        <div class="shapedotted"><img src="{{ asset('assets/images/about/dotted_shape.png') }}"
-                                alt="image">
+                        <div class="shapedotted">
+                            <img src="{{ asset('assets/images/about/dotted_shape.png') }}" alt="image">
                         </div>
-                        <img src="{{ asset('assets/images/about/about_1st.png') }}" alt="about_item">
+                        <img src="{{ asset('data/about.jpeg') }}" alt="about_item">
                         <div class="about-content-summery">
-                            <div class="about-summery">Call Us :+959 5137940<i></i><i></i><i></i><i></i></div>
+                            <div class="about-summery">
+                                Call Us :+959 5137940
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -63,8 +66,7 @@
                                 <aside class="widget widget-contact">
                                     <div class="contact-area">
                                         <div class="contact-icon">
-                                            <img src="{{ asset('assets/images/about/about_author.png') }}"
-                                                alt="about_author">
+                                            <img src="{{ asset('data/user.jpeg') }}" alt="about_author">
                                         </div>
                                         <div class="contact-info">
                                             <h6 class="title">U Aung Than Oo</h6>
@@ -72,9 +74,6 @@
                                         </div>
                                     </div>
                                 </aside>
-                                {{-- <div class="about-sign"><img src="{{ asset('assets/images/about/singnature.png') }}"
-                                        alt="singnature">
-                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -82,6 +81,8 @@
             </div>
         </div>
     </section>
+
+
     <section id="pricing-section" class="pricing-section pricing-two av-py-default shapes-section">
         <div class="av-container">
             <div class="av-columns-area">
@@ -96,32 +97,6 @@
             <div class="av-filter-wrapper-2">
                 <div class="av-columns-area wow fadeInUp">
                     <div class="av-column-12">
-                        {{-- <div class="av-tab-filter filters-theme">
-                            <a href="javascript:void(0);" data-filter="*"
-                                class="av-btn av-btn-primary av-btn-bubble active">All <span class="bubble_effect"><span
-                                        class="circle top-left"></span> <span class="circle top-left"></span> <span
-                                        class="circle top-left"></span> <span class="button effect-button"></span> <span
-                                        class="circle bottom-right"></span> <span class="circle bottom-right"></span> <span
-                                        class="circle bottom-right"></span></span></a>
-                            <a href="javascript:void(0);" data-filter=".monthly"
-                                class="av-btn av-btn-primary av-btn-bubble">Monthly <span class="bubble_effect"><span
-                                        class="circle top-left"></span> <span class="circle top-left"></span> <span
-                                        class="circle top-left"></span> <span class="button effect-button"></span> <span
-                                        class="circle bottom-right"></span> <span class="circle bottom-right"></span> <span
-                                        class="circle bottom-right"></span></span></a>
-                            <a href="javascript:void(0);" data-filter=".yearly"
-                                class="av-btn av-btn-primary av-btn-bubble">Yearly <span class="bubble_effect"><span
-                                        class="circle top-left"></span> <span class="circle top-left"></span> <span
-                                        class="circle top-left"></span> <span class="button effect-button"></span> <span
-                                        class="circle bottom-right"></span> <span class="circle bottom-right"></span> <span
-                                        class="circle bottom-right"></span></span></a>
-                            <a href="javascript:void(0);" data-filter=".lifetime"
-                                class="av-btn av-btn-primary av-btn-bubble">Lifetime <span class="bubble_effect"><span
-                                        class="circle top-left"></span> <span class="circle top-left"></span> <span
-                                        class="circle top-left"></span> <span class="button effect-button"></span> <span
-                                        class="circle bottom-right"></span> <span class="circle bottom-right"></span>
-                                    <span class="circle bottom-right"></span></span></a>
-                        </div> --}}
                         <div id="av-filter-init-2" class="av-columns-area av-filter-init pricing-row">
                             <div class="av-column-4 av-sm-column-6 av-filter-item all monthly">
                                 <div class="pricing-item">
@@ -129,41 +104,15 @@
                                         <h5>Our Vision</h5>
                                     </div>
                                     <div class="pricing-rate">
-                                        <p class="pricing-name">To be an international recruiter of professional and support
-                                            workforce in the global economy.</p>
-                                        <br><br><br>
-                                    </div>
-                                    <br><br><br>
-                                    {{-- <div class="pricing-payment">
-                                        <p>Lorem Ipsum dolor sit amet</p>
-                                        <ul>
-                                            <li><a href="javascript:void(0);"><i class="fa fa-cc-visa"></i></a></li>
-                                            <li><a href="javascript:void(0);"><i class="fa fa-cc-stripe"></i></a></li>
-                                            <li><a href="javascript:void(0);"><i class="fa fa-cc-paypal"></i></a></li>
-                                            <li><a href="javascript:void(0);"><i class="fa fa-cc-mastercard"></i></a></li>
-                                            <li><a href="javascript:void(0);"><i class="fa fa-cc-discover"></i></a></li>
-                                        </ul>
-                                    </div> --}}
-                                    {{-- <div class="pricing-list">
-                                        <ul>
-                                            <li>1300 Keywords</li>
-                                            <li>25 Analytics Compaign</li>
-                                            <li>1 Free Optimization</li>
-                                            <li>24/7 Support</li>
-                                        </ul>
-                                    </div> --}}
-                                    <div class="pricing-btn">
-                                        <a href="#" class="av-btn av-btn-secondary av-btn-bubble">Vision <i
-                                                class="fa fa-arrow-right"></i> <span class="bubble_effect"><span
-                                                    class="circle top-left"></span> <span class="circle top-left"></span>
-                                                <span class="circle top-left"></span> <span
-                                                    class="button effect-button"></span> <span
-                                                    class="circle bottom-right"></span> <span
-                                                    class="circle bottom-right"></span> <span
-                                                    class="circle bottom-right"></span></span></a>
+                                        <p class="pricing-name">
+                                            To be an international recruiter of professional and support
+                                            workforce in the global economy.
+                                        </p>
+                                        <br><br><br><br><br>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="av-column-4 av-sm-column-6 av-filter-item all yearly">
                                 <div class="pricing-item recommended">
                                     <div class="pricing-heading">
@@ -174,38 +123,10 @@
                                             management in order to provide a qualified and experienced workforce for the
                                             global economy and to continuously upgrade our international recruitment service
                                             to satisfy our clients recruitment to the fullest.</p>
-
-                                    </div>
-                                    {{-- <div class="pricing-payment">
-                                        <p>Lorem Ipsum dolor sit amet</p>
-                                        <ul>
-                                            <li><a href="javascript:void(0);"><i class="fa fa-cc-visa"></i></a></li>
-                                            <li><a href="javascript:void(0);"><i class="fa fa-cc-stripe"></i></a></li>
-                                            <li><a href="javascript:void(0);"><i class="fa fa-cc-paypal"></i></a></li>
-                                            <li><a href="javascript:void(0);"><i class="fa fa-cc-mastercard"></i></a></li>
-                                            <li><a href="javascript:void(0);"><i class="fa fa-cc-discover"></i></a></li>
-                                        </ul>
-                                    </div> --}}
-                                    {{-- <div class="pricing-list">
-                                        <ul>
-                                            <li>1300 Keywords</li>
-                                            <li>25 Analytics Compaign</li>
-                                            <li>1 Free Optimization</li>
-                                            <li>24/7 Support</li>
-                                        </ul>
-                                    </div> --}}
-                                    <div class="pricing-btn">
-                                        <a href="#" class="av-btn av-btn-primary av-btn-bubble">Mission <i
-                                                class="fa fa-arrow-right"></i> <span class="bubble_effect"><span
-                                                    class="circle top-left"></span> <span class="circle top-left"></span>
-                                                <span class="circle top-left"></span> <span
-                                                    class="button effect-button"></span> <span
-                                                    class="circle bottom-right"></span> <span
-                                                    class="circle bottom-right"></span> <span
-                                                    class="circle bottom-right"></span></span></a>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="av-column-4 av-sm-column-6 av-filter-item all lifetime">
                                 <div class="pricing-item">
                                     <div class="pricing-heading">
@@ -219,35 +140,6 @@
                                         <p>To service customers with professionalism, pride & passion.</p>
                                         <br>
                                     </div>
-                                    <br>
-                                    {{-- <div class="pricing-payment">
-                                        <p>Lorem Ipsum dolor sit amet</p>
-                                        <ul>
-                                            <li><a href="javascript:void(0);"><i class="fa fa-cc-visa"></i></a></li>
-                                            <li><a href="javascript:void(0);"><i class="fa fa-cc-stripe"></i></a></li>
-                                            <li><a href="javascript:void(0);"><i class="fa fa-cc-paypal"></i></a></li>
-                                            <li><a href="javascript:void(0);"><i class="fa fa-cc-mastercard"></i></a></li>
-                                            <li><a href="javascript:void(0);"><i class="fa fa-cc-discover"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="pricing-list">
-                                        <ul>
-                                            <li>1300 Keywords</li>
-                                            <li>25 Analytics Compaign</li>
-                                            <li>1 Free Optimization</li>
-                                            <li>24/7 Support</li>
-                                        </ul>
-                                    </div> --}}
-                                    <div class="pricing-btn">
-                                        <a href="#" class="av-btn av-btn-secondary av-btn-bubble">Values <i
-                                                class="fa fa-arrow-right"></i> <span class="bubble_effect"><span
-                                                    class="circle top-left"></span> <span class="circle top-left"></span>
-                                                <span class="circle top-left"></span> <span
-                                                    class="button effect-button"></span> <span
-                                                    class="circle bottom-right"></span> <span
-                                                    class="circle bottom-right"></span> <span
-                                                    class="circle bottom-right"></span></span></a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -259,6 +151,7 @@
         <div class="shape8"><img src="{{ asset('assets/images/projects/clipArt/shape8.png') }}" alt="image"></div>
         <div class="shape9"><img src="{{ asset('assets/images/projects/clipArt/shape9.png') }}" alt="image"></div>
     </section>
+
     <section id="step-section" class="step-section av-py-default">
         <div class="av-container">
             <div class="av-columns-area">
@@ -329,52 +222,6 @@
                             <h5 class="stepbox-title"><a href="javascript:void(0);">Apply Jobs</a></h5>
 
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="detailinfo-section" class="detailinfo-section av-py-default">
-        <div class="av-container">
-            <div class="av-columns-area">
-                <div class="av-column-6">
-                    <div class="detailinfo secondary">
-                        <aside class="widget widget-contact">
-                            <div class="contact-area">
-                                <div class="contact-icon"><i class="fa fa-users"></i></div>
-                                <div class="contact-info">
-                                    <span class="text">Jobseeker</span>
-                                    <span class="title">Looking For Job?</span>
-                                </div>
-                                <a href="javascript:void(0);" class="av-btn av-btn-primary av-btn-bubble">Apply Now <i
-                                        class="fa fa-arrow-right"></i> <span class="bubble_effect"><span
-                                            class="circle top-left"></span> <span class="circle top-left"></span> <span
-                                            class="circle top-left"></span> <span class="button effect-button"></span>
-                                        <span class="circle bottom-right"></span> <span
-                                            class="circle bottom-right"></span> <span
-                                            class="circle bottom-right"></span></span></a>
-                            </div>
-                        </aside>
-                    </div>
-                </div>
-                <div class="av-column-6">
-                    <div class="detailinfo primary">
-                        <aside class="widget widget-contact">
-                            <div class="contact-area">
-                                <div class="contact-icon"><i class="fa fa-file-text"></i></div>
-                                <div class="contact-info">
-                                    <span class="text">Recruiter</span>
-                                    <span class="title">Are You Recruiting?</span>
-                                </div>
-                                <a href="javascript:void(0);" class="av-btn av-btn-secondary av-btn-bubble">Apply Now <i
-                                        class="fa fa-arrow-right"></i> <span class="bubble_effect"><span
-                                            class="circle top-left"></span> <span class="circle top-left"></span> <span
-                                            class="circle top-left"></span> <span class="button effect-button"></span>
-                                        <span class="circle bottom-right"></span> <span
-                                            class="circle bottom-right"></span> <span
-                                            class="circle bottom-right"></span></span></a>
-                            </div>
-                        </aside>
                     </div>
                 </div>
             </div>

@@ -23,6 +23,7 @@
         <div class="av-container">
             <div class="av-columns-area">
                 <div class="av-column-6 av-sm-column-12">
+                    
                     <div class="heading-default text-left wow fadeInUp">
                         <h3>Our Services</h3>
                         <span class="separator"><span><span></span></span></span>
@@ -32,6 +33,7 @@
                         <p>Most of our workers in foreign countries are usually doing job well of the employee company.</p>
                         <p>If you ant to get full satisfaction,please contact to Our Than Than Services Co.,Ltd.</p>
                     </div>
+
                     <div class="pricing-tab wow fadeInUp">
                         <a href="{{ route('cv.index') }}" data-tab="monthly"
                             class="av-btn av-btn-secondary av-btn-bubble active">

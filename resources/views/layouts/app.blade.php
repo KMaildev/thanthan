@@ -10,9 +10,15 @@
 
     <!-- Title -->
     <title>Than Than Services Agency @yield('title')</title>
+    <meta content="" name="Than Than Services Agency">
+    <meta name="keywords" content="Than Than Services Agency" />
+    <meta property="og:title" content="Than Than Services Agency" />
+    <meta property="og:image" content="{{ asset('data/thanthan.png') }}" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="Than Than Services Agency" />
 
     <!-- Favicon Icon -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/favicon.png') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('data/thanthan.png') }}">
 
     <!-- Included CSS -->
     <link rel="stylesheet" href="{{ asset('assets/css/animate.min.css') }}">
@@ -66,4 +72,5 @@
 </body>
 <script type="text/javascript" src="{{ url('vendor/jsvalidation/js/jsvalidation.js') }}"></script>
 @yield('script')
+
 </html>

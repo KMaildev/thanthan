@@ -8,7 +8,7 @@
                     <div class="av-columns-area">
                         <div class="av-column-12">
                             <div class="heading-default text-center wow fadeInUp">
-                                <h3>SHARE<span class="primary-color"> YOUR CAREER GOALS WITH US</span></h3>
+                                <h3>Apply<span class="primary-color"> Job</span></h3>
                                 <span class="separator"><span><span></span></span></span>
                                 <p>
                                     Fill your infomations and then upload your CV.

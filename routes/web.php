@@ -14,6 +14,7 @@ use App\Http\Controllers\NewsController;
 use App\Http\Controllers\OrganizationchartController;
 use App\Http\Controllers\OurPartnerController;
 use App\Http\Controllers\OurTeamController;
+use App\Http\Controllers\RecruitmentServicesController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -32,3 +33,4 @@ Route::resource('activities', ActivitiesController::class);
 Route::resource('news', NewsController::class);
 Route::resource('cv', CvController::class);
 Route::resource('employer', EmployerController::class);
+Route::resource('recruitment_services', RecruitmentServicesController::class);
